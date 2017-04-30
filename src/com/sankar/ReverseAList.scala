@@ -40,7 +40,4 @@ object ReverseAList {
     }
     _reverse(Nil, l)
   }
-
-  def reverse[A](ls: List[A]): List[A] =
-    ls.foldLeft(List[A]()) { (r, h) => h :: r }
 }
